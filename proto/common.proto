@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package common;
+
+import "google/protobuf/any.proto";
+
+option go_package = "go/common";
+
+// 通用响应结构
+message ApiResponse {
+  int32 code = 1; // 错误码 (0 表示成功，非 0 表示失败)
+  string message = 2; // 描述信息
+  google.protobuf.Any data = 3; // 泛型数据结构，适配不同业务场景
+  Meta meta = 4; // 元信息字段
+}
+
+// 元信息结构
+message Meta {
+  string trace_id = 1; // 链路追踪 ID
+  string request_id = 2; // 请求 ID
+  int64 timestamp = 3; // 时间戳
+}

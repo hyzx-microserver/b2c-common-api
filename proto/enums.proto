@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package common;
+
+option go_package = "go/common";
+
+// 错误码枚举
+enum ErrorCode {
+  SUCCESS = 0;          // 成功
+  UNKNOWN_ERROR = 1;    // 未知错误
+  USER_NOT_FOUND = 1001; // 用户不存在
+  INVALID_REQUEST = 1002; // 请求非法
+}

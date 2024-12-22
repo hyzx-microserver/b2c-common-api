@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package common;
+
+import "google/protobuf/any.proto";
+
+option go_package = "go/common";
+
+// 错误详细信息
+message ErrorDetails {
+  int32 code = 1; // 错误码
+  string message = 2; // 错误描述
+  google.protobuf.Any metadata = 3; // 可选的附加信息
+}
+
+// 错误列表
+message ErrorResponse {
+  repeated ErrorDetails errors = 1; // 错误详情数组
+}

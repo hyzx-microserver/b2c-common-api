@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package common;
+
+option go_package = "go/common";
+
+// 通用字段验证规则
+message ValidationRules {
+  bool required = 1; // 是否为必填字段
+  int32 max_length = 2; // 最大长度
+  int32 min_length = 3; // 最小长度
+  string pattern = 4; // 正则表达式规则
+}
+
+// 验证结果
+message ValidationResult {
+  bool is_valid = 1; // 验证是否通过
+  string message = 2; // 错误信息
+}
