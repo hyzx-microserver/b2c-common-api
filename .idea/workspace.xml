@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b775be8-1be5-4095-9c4a-04f5d8685502" name="Changes" comment="init common api">
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto/common.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto/enums.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto/errors.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto/validation.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/compile.sh" afterDir="false" />
+    <list default="true" id="3b775be8-1be5-4095-9c4a-04f5d8685502" name="Changes" comment="init pro">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,24 +16,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "bgguojinwei"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bgguojinwei&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:hyzx-microserver/b2c-common-api.git",
-    "accountId": "17c6b069-94c7-4f44-ab00-66c5ed165e1e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:hyzx-microserver/b2c-common-api.git&quot;,
+    &quot;accountId&quot;: &quot;17c6b069-94c7-4f44-ab00-66c5ed165e1e&quot;
   }
-}]]></component>
+}</component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2qZm3YnWFhgKXC4Ytj7BxmKbSLp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -58,7 +53,7 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "go.vgo"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -73,12 +68,25 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init common api" />
-    <option name="LAST_COMMIT_MESSAGE" value="init common api" />
+    <MESSAGE value="update" />
+    <MESSAGE value="init pro" />
+    <option name="LAST_COMMIT_MESSAGE" value="init pro" />
   </component>
   <component name="VgoProject">
-    <integration-enabled>false</integration-enabled>
+    <automatic-dependencies-download-enabled>true</automatic-dependencies-download-enabled>
     <settings-migrated>true</settings-migrated>
   </component>
 </project>
