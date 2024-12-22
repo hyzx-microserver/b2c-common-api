@@ -1,4 +1,4 @@
-module b2c-common-api
+module github.com/hyzx-microserver/b2c-common-api
 
 go 1.23.1
 
