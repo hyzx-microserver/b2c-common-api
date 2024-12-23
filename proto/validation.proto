@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package common;
 
-option go_package = "go/common";
+option go_package = "github.com/hyzx-microserver/b2c-common-api/generated/go/common";
 
 // 通用字段验证规则
 message ValidationRules {
