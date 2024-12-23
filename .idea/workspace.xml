@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3b775be8-1be5-4095-9c4a-04f5d8685502" name="Changes" comment="init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/proto/common.proto" beforeDir="false" afterPath="$PROJECT_DIR$/proto/common.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/enums.proto" beforeDir="false" afterPath="$PROJECT_DIR$/proto/enums.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/errors.proto" beforeDir="false" afterPath="$PROJECT_DIR$/proto/errors.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/validation.proto" beforeDir="false" afterPath="$PROJECT_DIR$/proto/validation.proto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +57,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;go.vgo&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/generated" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

@@ -10,8 +10,9 @@ option go_package = "github.com/hyzx-microserver/b2c-common-api/generated/go/com
 message ApiResponse {
   int32 code = 1; // 错误码 (0 表示成功，非 0 表示失败)
   string message = 2; // 描述信息
-  google.protobuf.Any data = 3; // 泛型数据结构，适配不同业务场景
-  Meta meta = 4; // 元信息字段
+  google.protobuf.Any dataDTO = 3; // 泛型数据结构，适配不同业务场景
+  string data = 4; // 解析后的 JSON 数据
+  Meta meta = 5; // 元信息字段
 }
 
 // 元信息结构
