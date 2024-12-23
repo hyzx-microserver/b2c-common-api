@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b775be8-1be5-4095-9c4a-04f5d8685502" name="Changes" comment="init" />
+    <list default="true" id="3b775be8-1be5-4095-9c4a-04f5d8685502" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/go/common/common.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/go/common/enums.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/go/common/errors.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated/go/common/validation.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proto/common.proto" beforeDir="false" afterPath="$PROJECT_DIR$/proto/common.proto" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +97,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
     <automatic-dependencies-download-enabled>true</automatic-dependencies-download-enabled>
     <settings-migrated>true</settings-migrated>
   </component>
