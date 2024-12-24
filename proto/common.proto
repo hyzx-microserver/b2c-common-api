@@ -8,17 +8,17 @@ import "google/protobuf/struct.proto";  // Ensure this import is present
 option go_package = "github.com/hyzx-microserver/b2c-common-api/generated/go/common";
 
 // 通用响应结构
-message ApiResponse {
+message RespDTO {
   int32 code = 1; // 错误码 (0 表示成功，非 0 表示失败)
   string message = 2; // 描述信息
   google.protobuf.Any anyData = 3; //any 需要特定解析
   google.protobuf.Struct structData = 4; //直接返回json 但是无法保证顺序
   string stringData = 5; //字符串
-  Meta meta = 6; // 元信息字段
+  MetaDTO meta = 6; // 元信息字段
 }
 
 // 元信息结构
-message Meta {
+message MetaDTO {
   string trace_id = 1; // 链路追踪 ID
   string request_id = 2; // 请求 ID
   int64 timestamp = 3; // 时间戳
