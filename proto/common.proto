@@ -9,7 +9,7 @@ option go_package = "github.com/hyzx-microserver/b2c-common-api/generated/go/com
 
 // 通用响应结构
 message RespDTO {
-  int32 code = 1; // 错误码 (0 表示成功，非 0 表示失败)
+  string code = 1; // 错误码 (0 表示成功，非 0 表示失败)
   string message = 2; // 描述信息
   google.protobuf.Any anyData = 3; //any 需要特定解析
   google.protobuf.Struct structData = 4; //直接返回json 但是无法保证顺序
